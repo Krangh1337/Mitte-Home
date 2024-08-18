@@ -1,15 +1,16 @@
 All NFC files in this directory were taken:
 - After one full bottle was filled with water through the cartridge
-- With medium CO2-usage
 
 **Example:**
-- mitte_1508_1: 1st bottle on 15th of august
-- mitte_1508_2: 2nd bottle on 15th of august (no bottles in between number 1 and 2)
+- *ddmm_bottlenumber_CO2-level*
+- 1508_1_n: 15th of august, bottle 1 of that day, no CO2
+- 1608_2_l: 16th of august, bottle 2 of that day, low CO2
+- 1709_3_m: 17th of september, bottle 3 of that day, maximum CO2
 
 # General product information
 - Manufacturer: Mitte
 - 3-in-1 system: water filter, enriching water with minerals, adds CO2 to water
-- 3 CO2-levels: none, medium, max
+- 3 CO2-levels: none, low, max
 - Cartridge name: Restore
 - Minimum fill for a bottle: approx. 875 ml (checked with the water container)
 - After 7 days or more without usage, the filter must be cleaned with a full bottle of water
