@@ -2,19 +2,12 @@ All NFC files in this directory were taken:
 - After one full bottle was filled with water through the cartridge
 
 **Example:**
-- *ddmm_bottlenumber_CO2-level*
-- 1508_1_n: 15th of august, bottle 1 of that day, no CO2
-- 1608_2_l: 16th of august, bottle 2 of that day, low CO2
-- 1709_3_m: 17th of september, bottle 3 of that day, maximum CO2
+- *ddmm_bottlenumber_CO2-level_keystate*
+- 1508_1_n_locked: 15th of august, bottle 1 of that day, no CO2, NFC-file is password protected
+- 1608_2_l_unlocked: 16th of august, bottle 2 of that day, low CO2, NFC-file is unlocked
+- 1709_3_m_locked: 17th of september, bottle 3 of that day, maximum CO2, NFC-file is password protected
 
-# General product information
-- Manufacturer: Mitte
-- 3-in-1 system: water filter, enriching water with minerals, adds CO2 to water
-- 3 CO2-levels: none, low, max
-- Cartridge name: Restore
-- Minimum fill for a bottle: approx. 875 ml (checked with the water container)
-- After 7 days or more without usage, the filter must be cleaned with a full bottle of water
-
+# Cartridge information
 **The following information is printed on the cartridge:**
 - Lot number: MHO0523A
 - Production date: 23-05-11
