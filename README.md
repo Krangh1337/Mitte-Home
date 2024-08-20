@@ -14,7 +14,7 @@ This project aims to rewrite the NFC tags used in the filter cartridges of the "
 - **CO2 Pushes per Level**:
   - **None**: No CO2 added
   - **Low**: 8 CO2 pushes per bottle
-  - **Max**: 16 CO2 pushes per bottle
+  - **Max**: 17 CO2 pushes per bottle
 - **Cartridge Names**: Active, Balance, Light, Restore
 - **Minimum Bottle Fill**: Approx. 875 ml (checked with the water container)
 - **Maintenance**: After 7 days or more without usage, the filter must be cleaned with a full bottle of water.
