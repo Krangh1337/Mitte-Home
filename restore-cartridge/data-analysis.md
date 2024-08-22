@@ -33,27 +33,28 @@ The consumption counter is likely stored on **Pages 28-29** of the NFC chip. Thi
 
 | File                  | CO2 Level | Page 28          | Page 29          | Observation            |
 |-----------------------|-----------|------------------|------------------|------------------------|
-| `1508_1_l_unlocked`    | Low       | 14 B0 00 **BA**  | BD 95 00 **BA**  | Initial value          |
-| `1508_2_l_unlocked`    | Low       | 14 B0 00 **BB**  | C5 95 00 **BB**  | +1 after a bottle      |
-| `1608_1_l_unlocked`    | Low       | 14 B0 00 **BC**  | C5 95 00 **BC**  | +1 after a bottle      |
-| `1608_2_l_unlocked`    | Low       | 14 B0 00 **BD**  | CD 95 00 **BD**  | +1 after a bottle      |
-| `1608_3_l_unlocked`    | Low       | 14 B0 00 **BE**  | CD 95 00 **BE**  | +1 after a bottle      |
-| `1708_1_l_unlocked`    | Low       | 14 B0 00 **BF**  | BD 95 00 **BF**  | +1 after a bottle      |
-| `1708_2_l_unlocked`    | Low       | 14 B0 00 **C0**  | CD 95 00 **C0**  | +1 after a bottle      |
-| `1708_3_m_unlocked`    | Max       | 14 B0 00 **C1**  | D5 95 00 **C1**  | Max CO2 increment      |
-| `1708_4_l_unlocked`    | Low       | 14 B0 00 **C2**  | D5 95 00 **C2**  | +1 after a bottle      |
-| `1808_1_l_unlocked`    | Low       | 14 B0 00 **C3**  | D5 95 00 **C3**  | +1 after a bottle      |
-| `1808_2_m_unlocked`    | Max       | 14 B0 00 **C4**  | D5 95 00 **C4**  | Max CO2 increment      |
-| `1808_3_l_unlocked`    | Low       | 14 B0 00 **C5**  | DD 95 00 **C5**  | +1 after a bottle      |
-| `1808_4_l_unlocked`    | Low       | 14 B0 00 **C6**  | DD 95 00 **C6**  | +1 after a bottle      |
-| `1908_1_l_unlocked`    | Low       | 14 B0 00 **C7**  | DD 95 00 **C7**  | +1 after a bottle      |
-| `1908_2_l_unlocked`    | Low       | 14 B0 00 **C8**  | E5 95 00 **C8**  | +1 after a bottle      |
-| `2008_1_m_unlocked`    | Max       | 14 B0 00 **C9**  | ED 95 00 **C9**  | Max CO2 increment      |
-| `2008_2_l_unlocked`    | Low       | 14 B0 00 **CA**  | ED 95 00 **CA**  | +1 after a bottle      |
-| `2108_1_n_unlocked`    | None      | 14 B0 00 **CB**  | ED 95 00 **CB**  | No CO2 added           |
-| `2108_2_l_unlocked`    | Low       | 14 B0 00 **CC**  | ED 95 00 **CC**  | +1 after a bottle      |
-| `2108_3_l_unlocked`    | Low       | 14 B0 00 **CD**  | F5 95 00 **CD**  | +1 after a bottle      |
-| `2208_1_l_unlocked`    | Low       | 14 B0 00 **CE**  | F5 95 00 **CE**  | +1 after a bottle      |
+| `1508_1_l_unlocked`    | Low       | 14 B0 00 **BA**  | BD 95 00 **BA**  | Initial value                          |
+| `1508_2_l_unlocked`    | Low       | 14 B0 00 **BB**  | C5 95 00 **BB**  | +1 after a bottle                      |
+| `1608_1_l_unlocked`    | Low       | 14 B0 00 **BC**  | C5 95 00 **BC**  | +1 after a bottle                      |
+| `1608_2_l_unlocked`    | Low       | 14 B0 00 **BD**  | CD 95 00 **BD**  | +1 after a bottle                      |
+| `1608_3_l_unlocked`    | Low       | 14 B0 00 **BE**  | CD 95 00 **BE**  | +1 after a bottle                      |
+| `1708_1_l_unlocked`    | Low       | 14 B0 00 **BF**  | BD 95 00 **BF**  | +1 after a bottle                      |
+| `1708_2_l_unlocked`    | Low       | 14 B0 00 **C0**  | CD 95 00 **C0**  | +1 after a bottle                      |
+| `1708_3_m_unlocked`    | Max       | 14 B0 00 **C1**  | D5 95 00 **C1**  | +1 after a bottle                      |
+| `1708_4_l_unlocked`    | Low       | 14 B0 00 **C2**  | D5 95 00 **C2**  | +1 after a bottle                      |
+| `1808_1_l_unlocked`    | Low       | 14 B0 00 **C3**  | D5 95 00 **C3**  | +1 after a bottle                      |
+| `1808_2_m_unlocked`    | Max       | 14 B0 00 **C4**  | D5 95 00 **C4**  | +1 after a bottle                      |
+| `1808_3_l_unlocked`    | Low       | 14 B0 00 **C5**  | DD 95 00 **C5**  | +1 after a bottle                      |
+| `1808_4_l_unlocked`    | Low       | 14 B0 00 **C6**  | DD 95 00 **C6**  | +1 after a bottle                      |
+| `1908_1_l_unlocked`    | Low       | 14 B0 00 **C7**  | DD 95 00 **C7**  | +1 after a bottle                      |
+| `1908_2_l_unlocked`    | Low       | 14 B0 00 **C8**  | E5 95 00 **C8**  | +1 after a bottle                      |
+| `2008_1_m_unlocked`    | Max       | 14 B0 00 **C9**  | ED 95 00 **C9**  | +1 after a bottle                      |
+| `2008_2_l_unlocked`    | Low       | 14 B0 00 **CA**  | ED 95 00 **CA**  | +1 after a bottle                      |
+| `2108_1_n_unlocked`    | None      | 14 B0 00 **CB**  | ED 95 00 **CB**  | +1 after a bottle                      |
+| `2108_2_l_unlocked`    | Low       | 14 B0 00 **CC**  | ED 95 00 **CC**  | +1 after a bottle                      |
+| `2108_3_l_unlocked`    | Low       | 14 B0 00 **CD**  | F5 95 00 **CD**  | +1 after a bottle                      |
+| `2208_1_l_unlocked`    | Low       | 14 B0 00 **CE**  | F5 95 00 **CE**  | +1 after a bottle                      |
+| `2208_2_l_unlocked`    | Low       | 14 B0 00 **CE**  | F5 95 00 **CE**  | no change in HEX values, reason unknown|
 
 ---
 
@@ -84,6 +85,7 @@ The CO2-related data seems to be stored on **Pages 30-33**. Significant changes 
 | `2108_2_l_unlocked`    | Low       | 88 64 93 D5      | FF 1A EF C7      | ED D7 97 09      | 77 97 91 F3      | Stable after Low CO2 bottle     |
 | `2108_3_l_unlocked`    | Low       | 88 64 93 D5      | FF 1A EF C7      | ED D7 97 09      | 77 97 91 F3      | Stable after Low CO2 bottle     |
 | `2208_1_l_unlocked`    | Low       | D9 38 64 DB      | 38 03 E7 B1      | 20 D8 70 88      | 13 40 10 99      | Stable after Low CO2 bottle     |
+| 2208_2_l_unlocked      | Low       | D9 38 64 DB      | 38 03 E7 B1      | 20 D8 70 88      | 13 40 10 99      | Stable after Low CO2 bottle |
 
 ### Observations
 - **Pages 28-29** seem to consistently track the total number of bottles processed by the cartridge.
